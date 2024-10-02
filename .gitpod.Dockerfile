@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -yq \
     git \
     git-lfs \
     sudo \
-    docker.io=24.0.5-0ubuntu1~22.04.1 \
+    docker.io=24.0.7-0ubuntu2~22.04.1 \
     && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/*
 
 # Create the gitpod user. UID must be 33333.
